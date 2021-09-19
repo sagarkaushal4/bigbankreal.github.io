@@ -1,0 +1,27 @@
+<%- include("base") %>
+
+<h1 class="hCustD">&#9664; CUSTOMER DETAILS &#9658;</h1>
+
+<div class='table'>
+    
+	<table>
+		 <thead class ="header1">
+			<tr>
+				<th>Customer Name</th>
+				<th>Email</th>
+				<th>Balance &#8377;</th>
+				<th>Transfer</th>
+			</tr>
+		</thead>
+            <% for(let user of users){ %>
+	     <tbody class ='header2'>
+			<tr>
+				<td><%= user.name %></td>
+                <td><%= user.email%></td>
+                <td><%= user.credits%></td>
+         <td><button class="selectuser"><a href="/view/<%= user._id %>">Select User</a>
+			 </button></td>
+			</tr> 
+	</tbody>
+		 <% } %>
+	</table>

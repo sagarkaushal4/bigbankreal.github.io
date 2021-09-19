@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Righteous', cursive;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    margin: 0px 37px;
+    text-decoration: none;
+    
+}
+#brand{
+    margin-right: 150px;
+}
+#logo img{
+    height: 60px;
+    filter: invert(1);
+    
+} 
+#navbar{
+    padding: 15px 15px;
+    background-color: rgb(14, 31, 143);
+    font-size: 20px;
+    color: antiquewhite;
+    
+    /* font-weight: bold; */
+}
+#navbar ul{
+    display: flex; /*flex box banane k liy*/
+    flex-direction: row; /*ek line me lane k liy */
+    /* justify-content: center; center me lane k liy */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 50px;
+    color: rgb(230, 217, 201);
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 5px 50px;
+    color: rgb(14, 31, 143);
+    background-color: rgba(235, 219, 199, 0.918);
+}
+#homesec{
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 540px;
+    background-color: red;
+    background: no-repeat center/100% url("../static/bankbg2.jpg");
+}
+
+#container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: right;
+    margin-right: 150px;
+}
+#welcome{
+    font-size: 50px;
+    padding: 40px;
+    font-weight: bold;
+    color: rgb(14, 31, 143);
+    margin-top: 100px;
+}
+
+#submit{
+    font-size: 20px;
+    padding: 20px;
+    margin: 25px 100px;
+    border: none;
+    color: antiquewhite;
+    background-color: rgb(14, 31, 143);
+    cursor: pointer;
+    width: 300px;
+}
+#submit:hover{
+    background-color: rgb(14, 15, 59);
+    border: 2px solid rgb(14, 31, 143);
+}
+#submit a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#spark{
+    margin-left: 1000px;
+    margin-top: 100px;
+    background-color: rgb(14, 14, 158);
+    padding: 20px;
+}
+#spark a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* customer details  */
+.hCustD{
+    text-align: center;
+    color: rgb(14, 31, 143);
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px;
+}
+.table tr,th,td{
+    font-weight: lighter;
+    border: 2px solid antiquewhite;
+    padding: 20px;
+    background-color: rgb(14, 31, 143);
+    color: antiquewhite;
+}
+.table tr,th,td:hover{
+    background-color: rgb(5, 5, 65);
+}
+.selectuser{
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+}
+/* .selectuser a:hover{
+    background-color:rgb(14, 31, 143) ;
+    color: antiquewhite;
+} */
+.selectuser a{
+    text-decoration: none;
+    color: rgb(14, 31, 143) ;
+}
+
+/* form  */
+.fcontainer{
+    background-color: antiquewhite;
+    color: rgb(14, 31, 143);
+    margin: 30px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.transfer1{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+
+.tform {
+
+    padding: 10px 250px;
+    background-color: antiquewhite;
+    margin: 25px 0px;
+    color: rgb(14, 31, 143);
+    font-size: 20px;
+}
+.tform input,label{
+    margin: 10px 99px;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+    
+#msgerror{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 0);
+}
